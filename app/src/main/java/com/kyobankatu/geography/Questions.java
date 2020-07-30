@@ -46,12 +46,7 @@ public class Questions extends AppCompatActivity {
     }
 
     private List<File> getJsonFiles() {
-        try {
-            BufferedReader bf = new BufferedReader(new FileReader("data"));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        File dir = new File("data");
+        File dir = new File(getApplicationContext().getFilesDir()+"/data");
         File[] files = dir.listFiles();
         if(files==null) {
             return null;
@@ -64,7 +59,6 @@ public class Questions extends AppCompatActivity {
         Button button = new Button(this);
         button.setText(text);
         button.setTextSize(20);
-        button.setWidth(200);
         button.setTextColor(Color.parseColor("#4D4234"));
         return button;
     }
