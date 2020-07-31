@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Geography</string>
+    <string name="title">地理暗記</string>
+    <string name="createQuestions">問題作成</string>
+    <string name="setting">設定</string>
     <string name="search">検索</string>
+    <string name="result">結果</string>
+    <string name="details">詳細</string>
+    <string name="question">問題</string>
+    <string name="yourAns">あなたの回答</string>
+    <string name="ans">解答</string>
 </resources>

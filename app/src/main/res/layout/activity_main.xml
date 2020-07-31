@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="地理暗記"
+        android:text="@string/title"
         android:textColor="#4D4234"
         android:textSize="45sp" />
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_width="300dp"
         android:layout_marginTop="100dp"
-        android:text="問題"
+        android:text="@string/question"
         android:textColor="#4D4234"
         />
 
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_width="300dp"
         android:layout_marginTop="100dp"
-        android:text="問題作成"
+        android:text="@string/createQuestions"
         android:textColor="#4D4234"
         />
 
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_width="300dp"
         android:layout_marginTop="100dp"
-        android:text="設定"
+        android:text="@string/setting"
         android:textColor="#4D4234"
         />
 
